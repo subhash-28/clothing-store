@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-[#fbf7ef] text-ink font-body antialiased; }
+h1, h2, h3 { @apply font-display; }
+:focus-visible { outline: 2px solid #8C542F; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
